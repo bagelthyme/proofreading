@@ -8,6 +8,14 @@ body {
   margin: 0;
 }
 
+#scrollUp {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 2;
+  cursor: pointer;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -95,7 +103,18 @@ nav ul li {
   text-align: center;
 }
 
+.grid-box4 form {
+  padding: 1.5em;
+}
 
+.title {
+  font-family: Optima;
+  font-style: italic;
+}
+
+.grid-box7 h1 {
+  font-style: italic;
+}
 
 
 
