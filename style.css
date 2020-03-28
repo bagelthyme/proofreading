@@ -11,7 +11,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-
+  /* background-color: #2196F3; */
   /* padding: 10px; */
 }c
 
@@ -59,6 +59,8 @@ nav ul li {
 .option-container{
   display: grid;
   grid-template-columns: auto auto auto;
+  font-family: Optima;
+  font-style: italic;
 }
 
 .contact-container{
