@@ -30,9 +30,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: Optima;
-  font-size: 1.7rem;
+  font-size: 2rem;
   background-color: #f8f2e5;
   height: 10vh;
+  padding: 0.5em;
 }
 
 nav ul {
