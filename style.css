@@ -4,6 +4,10 @@
   src: url("fonts/optima.ttf");
 }
 
+body {
+  margin: 0;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -23,7 +27,10 @@
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-family: Optima;
+  background-color: #f8f2e5;
+  height: 10vh;
 }
 
 nav ul {
