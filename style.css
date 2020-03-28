@@ -70,7 +70,6 @@ nav ul li {
 
 
 .grid-rating1, .grid-rating2, .grid-rating3, .grid-rating4, .grid-rating5, .grid-rating6 {
-  background-color: yellow;
   border: 1px solid rgba(0, 0, 0, 0.8);
   /* padding: 20px; */
   font-size: 30px;
@@ -79,8 +78,7 @@ nav ul li {
 }
 
 .grid-box1 ,.grid-box2, .grid-box3, .grid-box4, .grid-box5, .grid-box6, .grid-box7 {
-  /* background-color: yellow; */
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  border: 1px solid rgba(0, 0, 0, 0.8);
   /* padding: 20px; */
   font-size: 30px;
   text-align: center;
@@ -90,11 +88,35 @@ nav ul li {
 
 
 
+
 /* ---------------DESKTOP------------------ */
 
+h1 {
+  font-family: Optima;
+}
 
-body {
-  margin: 0;
+p {
+  font-family: Optima;
+}
+
+
+.edit {
+  font-family: Optima;
+}
+
+
+.grid-item.hero {
+  height: 800px;
+  background: url("images/hero-main.jpg")
+}
+
+#exploreButton {
+  position: absolute;
+  top:35%;
+  left: 35%;
+  padding: 30px;
+  font-size: 40px;
+  font-family: Optima;
 }
 
 .grid-box5 {
@@ -107,7 +129,10 @@ body {
 
 #author {
   border-radius: 50%;
-  margin-top: 30px;
+  margin-top: 20px;
+  width: 420px;
+  height: 350px;
+
 }
 
 #frequently {
@@ -119,9 +144,58 @@ body {
 }
 
 .faqText {
-  background-color: grey;
   margin: 20px;
+  position: absolute;
+  padding: 45px;
+  height: 400px;
 }
+
+.backOpacity {
+
+}
+
+
+/*------------ Rating Section ------------ */
+.rating-image {
+  border-radius: 50%;
+  width: 140px;
+  height: 120px;
+  padding: 0;
+  margin: 0px;
+  float: left;
+}
+
+.rating-name {
+  color: blue;
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.rating-date {
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.rating-text {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.rating-star {
+  color: yellow;
+  margin: 0px;
+}
+
+
+
+
+
+
 
 
 /* -------------FORM------------ */
