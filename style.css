@@ -138,14 +138,15 @@ background: black;
 border: none;
 }
 
-
 .checkbox input {
 margin: 0 10px 0 0;
 vertical-align: middle;
 }
+
 .checkbox a {
 color: #26a9e0;
 }
+
 .checkbox a:hover {
 color: #85d6de;
 }
@@ -167,10 +168,33 @@ display: inline-block;
 margin: 20px 5px 0;
 }
 
-
 button {
 width: 100%;
 }
+
 button:hover, .btn-item:hover {
 background: #85d6de;
+}
+
+/* -------------FORM------------ */
+footer {
+  background-image: url('images/sunglasses.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+}
+
+footer div {
+  /* display: flex; */
+  justify-content: space-around;
+  align-self: flex-end;
+}
+
+footer div p {
+  display: inline;
+}
+
+footer a {
+  text-decoration: none;
 }
