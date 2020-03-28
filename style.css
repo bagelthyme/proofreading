@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: auto;
   background-color: #2196F3;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 30px;
   text-align: center;
 }
@@ -39,7 +39,7 @@
 .grid-rating1, .grid-rating2, .grid-rating3, .grid-rating4, .grid-rating5, .grid-rating6 {
   background-color: yellow;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 30px;
   text-align: center;
 }
@@ -47,7 +47,7 @@
 .grid-box1 ,.grid-box2, .grid-box3, .grid-box4, .grid-box5, .grid-box6, .grid-box7 {
   background-color: yellow;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 30px;
   text-align: center;
 }
@@ -61,6 +61,7 @@
   background-image: url("images/girl-books.jpg");
   height: 500px;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: bottom right; 
+  background-position: center;
+  background-size: cover;
+
 }
