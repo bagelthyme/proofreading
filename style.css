@@ -14,6 +14,19 @@
   text-align: center;
 }
 
+/* ---------------NAVIGATION------------------ */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
 
 .option-container{
   display: grid;
