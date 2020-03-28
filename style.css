@@ -11,7 +11,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  background-color: #2196F3;
+  /* background-color: #2196F3; */
   /* padding: 10px; */
 }c
 
@@ -49,6 +49,8 @@ nav ul li {
 .option-container{
   display: grid;
   grid-template-columns: auto auto auto;
+  font-family: Optima;
+  font-style: italic;
 }
 
 .contact-container{
@@ -77,8 +79,8 @@ nav ul li {
 }
 
 .grid-box1 ,.grid-box2, .grid-box3, .grid-box4, .grid-box5, .grid-box6, .grid-box7 {
-  background-color: yellow;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  /* background-color: yellow; */
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   /* padding: 20px; */
   font-size: 30px;
   text-align: center;
