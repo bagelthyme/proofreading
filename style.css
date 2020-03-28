@@ -29,10 +29,7 @@ nav {
 
 nav ul li {
   display: inline;
-}
-
-nav ul li a {
-  text-decoration: none;
+  cursor: pointer;
 }
 
 .option-container{
