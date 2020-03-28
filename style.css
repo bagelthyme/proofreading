@@ -187,8 +187,9 @@ footer {
 
 footer div {
   /* display: flex; */
-  justify-content: space-around;
+  justify-content: space-between;
   align-self: flex-end;
+  width: 100%;
 }
 
 footer div p {
