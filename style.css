@@ -30,6 +30,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: Optima;
+  font-size: 1.7rem;
   background-color: #f8f2e5;
   height: 10vh;
 }
@@ -72,6 +73,7 @@ nav ul li {
   /* padding: 20px; */
   font-size: 30px;
   text-align: center;
+  font-family: Optima;
 }
 
 .grid-box1 ,.grid-box2, .grid-box3, .grid-box4, .grid-box5, .grid-box6, .grid-box7 {
@@ -201,14 +203,18 @@ footer {
   background-size: cover;
   height: 80vh;
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
+  font-family: Optima;
+  font-size: 1.4rem;
 }
 
 footer div {
   display: flex;
   justify-content: space-around;
   align-self: flex-end;
-  width: 40%;
+  width: 50%;
 }
 
 footer div p {
