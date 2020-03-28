@@ -51,3 +51,16 @@
   font-size: 30px;
   text-align: center;
 }
+
+
+
+
+/* ---------------DESKTOP------------------ */
+
+.grid-box5 {
+  background-image: url("images/girl-books.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right; 
+}
