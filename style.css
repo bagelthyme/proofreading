@@ -172,6 +172,21 @@ p {
   background-position: center;
   background-size: cover;
   height: 800px;
+  padding: 2em;
+}
+
+#frequently ul {
+  list-style-type: none;
+}
+
+#frequently h1 {
+  font-size: 4em;
+  font-style: italic;
+}
+
+#frequently div {
+  font-size: 1.3em;
+  font-family: Optima;
 }
 
 .faqText {
@@ -179,6 +194,7 @@ p {
   position: absolute;
   padding: 45px;
   height: 400px;
+  font-size: 1.3em;
 }
 
 .backOpacity {
