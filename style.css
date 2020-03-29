@@ -21,7 +21,7 @@ body {
   grid-template-columns: auto;
   /* background-color: #2196F3; */
   /* padding: 10px; */
-}c
+}
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
@@ -118,6 +118,48 @@ nav ul li {
   font-style: italic;
 }
 
+
+
+
+/* ---------------SERVICES PAGES------------ */
+.grid-container-services {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.confirmation-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 90px;
+}
+
+.basicEditing {
+  background-image: url("images/girl-books.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+
+.descriptionEditing {
+  height: 800px;
+  /* border: solid black; */
+}
+
+.actionEditing {
+  /* border: solid black; */
+  padding: 50px;
+}
+
+.confirmationEditing {
+  /* border: solid black; */
+  padding: 60px;
+}
+
+.descriptionText {
+  padding: 50px;
+}
 
 
 
