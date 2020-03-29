@@ -67,11 +67,14 @@ nav ul li {
 }
 
 #menuToggle {
-  height: 20%;
+  height: 50%;
   margin-right: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
   display: none;
+  background-color: var(--nav-color);
+  justify-self: center;
+  align-self: center;
 }
 
 #menuToggle span {
@@ -80,7 +83,7 @@ nav ul li {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: black;
   border-radius: 3px;
 }
 
@@ -480,11 +483,73 @@ footer a {
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 818px) {
+
+  .author-container {
+    grid-template-columns: unset;
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+
+  footer div {
+    width: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 568px) {
 
   #menuToggle {
     display: inline;
   }
+
+  nav {
+    font-size: 1.7rem;
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  nav ul, nav p {
+    visibility: hidden;
+  }
+
+  nav ul {
+    width: 60%;
+  }
+
+  .nav {
+    display: flex;
+    background-color: var(--nav-color);
+    justify-content: space-between;
+  }
+
+  .grid-item.hero {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-container {
+    display: block;
+  }
+
+  .grid-box5 {
+    display: none;
+  }
+
+  #exploreButton {
+    width: auto;
+    left: unset;
+    top: unset;
+    position: unset;
+    align-self: center;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
 
   .edit {
     height: 50vh;
