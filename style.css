@@ -455,6 +455,19 @@ footer a {
     font-size: 2rem;
   }
 
+  .backOpacity {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+  }
+
+  form input, form select, form textarea, form button {
+    font-size: 2rem;
+  }
+
+  form textarea {
+    height: 20vh;
+  }
+
   footer {
     height: 20vh;
     color: black;
