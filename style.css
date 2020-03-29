@@ -86,6 +86,7 @@ nav ul li {
   font-size: 30px;
   text-align: center;
   font-family: Optima;
+  padding: 15px;
 }
 
 .grid-box1 ,.grid-box2, .grid-box3, .grid-box4, .grid-box5, .grid-box6, .grid-box7 {
@@ -113,6 +114,9 @@ p {
 
 .edit {
   font-family: Optima;
+  background-color: #F8F2E6;
+  padding: 30px;
+  margin: 0px;
 }
 
 
@@ -122,6 +126,8 @@ p {
 }
 
 #exploreButton {
+  background-color: #F8F2E6;
+  color: black;
   position: absolute;
   top:35%;
   left: 35%;
@@ -162,9 +168,12 @@ p {
 }
 
 .backOpacity {
-
 }
 
+.aboutMeText {
+  margin-left: 60px;
+  margin-right: 60px;
+}
 
 /*------------ Rating Section ------------ */
 .rating-image {
@@ -204,7 +213,7 @@ p {
 
 
 .grid-item.rating-container {
-  padding: 120px;
+  padding: 70px;
 }
 
 .grid-item.author-container {
@@ -214,8 +223,16 @@ p {
 
 
 /* -------------FORM------------ */
+
+#h2Contact {
+  margin: 0px;
+}
+
+
 form {
 background: rgba(0, 0, 0, 0.7);
+
+
 }
 
 .title {
@@ -226,6 +243,8 @@ align-items: center;
 .info {
 display: flex;
 flex-direction: column;
+margin-left: 50px;
+margin-right: 50px;
 }
 
 input, select {
