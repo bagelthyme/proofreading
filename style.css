@@ -8,6 +8,14 @@ body {
   margin: 0;
 }
 
+#scrollUp {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 2;
+  cursor: pointer;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto;
@@ -30,7 +38,8 @@ body {
 :root {
 
   --star-rating-color: #D7E109;
-  --blue-rating-color: #0982E1
+  --blue-rating-color: #0982E1;
+  --nav-color: #f8f2e5;
 }
 
 
@@ -41,7 +50,7 @@ nav {
   align-items: center;
   font-family: Optima;
   font-size: 2rem;
-  background-color: #f8f2e5;
+  background-color: var(--nav-color);
   height: 10vh;
   padding: 0.5em;
 }
@@ -96,7 +105,18 @@ nav ul li {
   text-align: center;
 }
 
+.grid-box4 form {
+  padding: 1.5em;
+}
 
+.title {
+  font-family: Optima;
+  font-style: italic;
+}
+
+.grid-box7 h1 {
+  font-style: italic;
+}
 
 
 
@@ -303,7 +323,9 @@ width: 30%;
 }
 
 button:hover, .btn-item:hover {
-background: #85d6de;
+/* background: #85d6de; */
+background: var(--nav-color);
+color: black;
 }
 
 /* -------------FOOTER------------ */
