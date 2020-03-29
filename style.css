@@ -66,6 +66,24 @@ nav ul li {
   cursor: pointer;
 }
 
+#menuToggle {
+  height: 20%;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #cdcdcd;
+  border-radius: 3px;
+}
+
 .option-container{
   display: grid;
   grid-template-columns: auto auto auto;
@@ -142,6 +160,7 @@ p {
   background-color: #F8F2E6;
   padding: 30px;
   margin: 0px;
+  font-size: 3rem;
 }
 
 
@@ -169,6 +188,25 @@ p {
 
 }
 
+.service {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.basic {
+  background-image: url("images/legs-book.jpg");
+}
+
+.extended {
+  background-image: url("images/treebook.jpg");
+}
+
+.resume {
+  background-image: url("images/night.jpg");
+}
+
 #author {
   border-radius: 50%;
   margin-top: 20px;
@@ -184,7 +222,7 @@ p {
   background-size: cover;
   height: 800px;
   padding: 2em;
-}
+ }
 
 #frequently ul {
   list-style-type: none;
@@ -209,6 +247,10 @@ p {
 }
 
 .backOpacity {
+}
+
+.faq {
+
 }
 
 .aboutMeText {
@@ -394,4 +436,45 @@ footer div p {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+/* -------------MEDIA QUERIES------------ */
+@media only screen and (max-width: 1025px) {
+
+  .service {
+    height: 50vh;
+  }
+
+  #frequently {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #frequently div {
+    font-size: 2rem;
+  }
+
+  footer {
+    height: 20vh;
+    color: black;
+    font-size: 1.9rem;
+  }
+
+  footer a {
+    color: black;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  #menuToggle {
+    display: inline;
+  }
+
+  .edit {
+    height: 50vh;
+  }
+
 }
