@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Paper Proof</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://kit.fontawesome.com/9d72bb5bed.js" crossorigin="anonymous"></script>
   </head>
@@ -20,7 +20,7 @@
             <li id="aboutNav">ABOUT</li>
             <li id="faqNav">FAQ</li>
           </ul>
-          <p id='phone'>307-222-1332</p>
+          <p id='phone'><a href="tel:+1-307-222-1332">307-222-1332</a></p>
         </nav>
         <div id="menuToggle">
           <span></span>
@@ -147,7 +147,7 @@ have a day job, I am able to help doing what I love for cheap price. </p>
       <div class="grid-item contact-container">
         <div class="grid-box4">
 
-          <form action="/">
+          <form action="contact.php" method="POST">
             <h2 id="h2Contact">Contact me</h2>
             <div class="title">
               <i class="fas fa-pencil-alt"></i>
@@ -155,17 +155,17 @@ have a day job, I am able to help doing what I love for cheap price. </p>
 
             <div class="info">
               <input class="fname" type="text" name="name" placeholder="Full name">
-              <input type="text" name="name" placeholder="Email">
-              <input type="text" name="name" placeholder="Phone number">
+              <input type="text" name="email" placeholder="Email">
+              <input type="text" name="phone" placeholder="Phone number">
 
-              <select>
+              <select name="type">
                 <option value="course-type" selected>Question type</option>
                 <option value="short-courses">General</option>
                 <option value="featured-courses">Refund</option>
                 <option value="undergraduate">Special Request</option>
               </select>
 
-              <textarea>Your Message...</textarea>
+              <textarea name='message'>Your Message...</textarea>
             </div>
 
             <button id="submitButton" type="submit" href="/">Submit</button>
