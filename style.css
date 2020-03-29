@@ -55,6 +55,11 @@ nav {
   padding: 0.5em;
 }
 
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -292,7 +297,7 @@ p {
   position: absolute;
   padding: 45px;
   height: 400px;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .backOpacity {
@@ -593,12 +598,10 @@ footer a {
     align-self: center;
   }
 
-}
-
-@media only screen and (max-width: 414px) {
-
-  .edit {
-    height: 50vh;
+  #frequently {
+    padding: 1em;
   }
 
 }
+
+@media only screen and (max-width: 414px) {}
