@@ -123,6 +123,11 @@ nav ul li {
 
 /* ---------------DESKTOP------------------ */
 
+
+#frequently > h1 {
+  text-align: center;
+}
+
 h1 {
   font-family: Optima;
 }
@@ -240,9 +245,24 @@ p {
   padding: 50px;
 }
 
+div.grid-box7 > p {
+  margin: 30px;
+}
 
 
 /* -------------FORM------------ */
+
+#submitButton {
+  margin-top: 25px;
+}
+
+
+textarea {
+  height: 90px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
 
 #h2Contact {
   margin: 0px;
@@ -327,6 +347,8 @@ button:hover, .btn-item:hover {
 background: var(--nav-color);
 color: black;
 }
+
+
 
 /* -------------FOOTER------------ */
 footer {
