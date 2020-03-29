@@ -155,31 +155,31 @@ nav ul li {
 }
 
 .basicEditing {
-  background-image: url("images/girl-books.jpg");
+  background-image: url("images/legs-book.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100%;
+  width: 400px;
 }
 
 
 .descriptionEditing {
-  height: 800px;
+  height: 700px;
+  padding: 30px;
   /* border: solid black; */
+}
+
+.descriptionText {
+  /* padding: 30px; */
 }
 
 .actionEditing {
   /* border: solid black; */
-  padding: 50px;
 }
 
 .confirmationEditing {
-  /* border: solid black; */
-  padding: 60px;
-}
-
-.descriptionText {
-  padding: 50px;
+  padding-top: 90px;
 }
 
 
@@ -351,6 +351,11 @@ p {
 div.grid-box7 > p {
   margin: 30px;
 }
+
+/* -------------CONFIMRSTION FORM------------ */
+
+
+
 
 
 /* -------------FORM------------ */
