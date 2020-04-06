@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html></<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="https://kit.fontawesome.com/9d72bb5bed.js" crossorigin="anonymous"></script>
-  </head>
+  <?php include 'header.php';?>
   <body>
-
-
     <div class="grid-container-services">
       <div class="grid-item">
         <nav>
           <img id="logo" src="images/logo.svg">
           <ul>
-            <li id="homeNav"><a href="index.html">HOME</a></li>
+            <li id="homeNav"><a href="index.php">HOME</a></li>
             <li id="aboutNav">ABOUT</li>
             <li id="faqNav">FAQ</li>
           </ul>
@@ -50,17 +42,7 @@
         </div>
       </div>
 
-
-      <div class="grid-item">
-        <footer>
-          <div>
-            <p>&copy; 2020 Proofreading Inc</p>
-            <p><a href="#">Privacy</a></p>
-            <p><a href="#">Terms</a></p>
-          </div>
-        </footer>
-      </div>
-
+      <?php include 'footer.php';?>
     </div>
 
   </body>
