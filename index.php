@@ -7,22 +7,7 @@
     </div>
     <div class="grid-container">
       <?php include 'navigation.php';?>
-      <!-- <div class="grid-item nav">
-        <nav>
-          <img id="logo" src="images/logo.svg">
-          <ul>
-            <li id="homeNav">HOME</li>
-            <li id="aboutNav">ABOUT</li>
-            <li id="faqNav">FAQ</li>
-          </ul>
-          <p id='phone'><a href="tel:+1-307-222-1332">307-222-1332</a></p>
-        </nav>
-        <div id="menuToggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div> -->
+      
       <div class="grid-item hero">
         <button id="exploreButton">EXPLORE</button>
       </div>
