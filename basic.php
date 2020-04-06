@@ -4,7 +4,8 @@
   <?php include 'header.php';?>
   <body>
     <div class="grid-container-services">
-      <div class="grid-item">
+      <?php include 'navigation.php';?>
+      <!-- <div class="grid-item">
         <nav>
           <img id="logo" src="images/logo.svg">
           <ul>
@@ -14,7 +15,8 @@
           </ul>
           <p id='phone'>307-222-1332</p>
         </nav>
-      </div>
+      </div> -->
+
 
       <div class="grid-item confirmation-container">
 

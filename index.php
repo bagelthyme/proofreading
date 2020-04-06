@@ -6,7 +6,8 @@
       <i class="fas fa-arrow-circle-up fa-5x"></i>
     </div>
     <div class="grid-container">
-      <div class="grid-item nav">
+      <?php include 'navigation.php';?>
+      <!-- <div class="grid-item nav">
         <nav>
           <img id="logo" src="images/logo.svg">
           <ul>
@@ -21,7 +22,7 @@
           <span></span>
           <span></span>
         </div>
-      </div>
+      </div> -->
       <div class="grid-item hero">
         <button id="exploreButton">EXPLORE</button>
       </div>
