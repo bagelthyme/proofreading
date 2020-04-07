@@ -8,6 +8,7 @@ body {
   margin: 0;
 }
 
+
 #scrollUp {
   position: fixed;
   bottom: 1em;
@@ -168,6 +169,17 @@ nav ul li {
   width: 400px;
 }
 
+.extendedEditing {
+  background-image: url("images/legs-book.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 400px;
+}
+
+
+
 
 .descriptionEditing {
   height: 700px;
@@ -190,6 +202,8 @@ nav ul li {
 
 
 /* ---------------DESKTOP------------------ */
+
+
 
 
 #frequently > h1 {
@@ -232,6 +246,10 @@ p {
   padding: 30px;
   font-size: 40px;
   font-family: Optima;
+}
+
+h1:hover {
+  margin: 40px;
 }
 
 .grid-box5 {
@@ -435,7 +453,7 @@ vertical-align: middle;
 color: #26a9e0;
 }
 
-.checkbox a:hover {
+.checkbox {
 color: #85d6de;
 }
 
@@ -482,11 +500,18 @@ footer {
   font-size: 1.4rem;
 }
 
-footer div {
-  display: flex;
+.footer_layer_one {
+  /* display: flex; */
   justify-content: space-around;
   align-self: flex-end;
-  width: 50%;
+  width: 100%;
+}
+
+.footer_layer_two {
+  /* display: flex; */
+  justify-content: space-around;
+  align-self: flex-end;
+  width: 100%;
 }
 
 footer div p {

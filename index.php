@@ -7,7 +7,7 @@
     </div>
     <div class="grid-container">
       <?php include 'navigation.php';?>
-      
+
       <div class="grid-item hero">
         <button id="exploreButton">EXPLORE</button>
       </div>
@@ -17,11 +17,11 @@
           <!-- <img src="images/legs-book.jpg" alt="christmas" width="100%" height="100%"> -->
         </div>
         <div class="grid-box2 service extended">
-          <h4 class="edit"><a href="extended.html">Extended Editing</a></h4>
+          <h4 class="edit"><a href="extended.php">Extended Editing</a></h4>
           <!-- <img src="images/treebook.jpg" alt="christmas" width="100%" height="100%"> -->
         </div>
         <div class="grid-box3 service resume">
-          <h4 class="edit"><a href="resume.html">Resume Editing</a></h4>
+          <h4 class="edit"><a href="resume.php">Resume Editing</a></h4>
           <!-- <img src="images/night.jpg" alt="kid" width="100%" height="100%"> -->
         </div>
       </div>
@@ -159,15 +159,7 @@ have a day job, I am able to help doing what I love for cheap price. </p>
         <div></div>
 
       </div>
-      <div class="grid-item">
-        <footer>
-          <div>
-            <p>&copy; 2020 Proofreading Inc</p>
-            <p><a href="#">Privacy</a></p>
-            <p><a href="#">Terms</a></p>
-          </div>
-        </footer>
-      </div>
+      <?php include 'footer.php';?>
     </div>
 
     <script

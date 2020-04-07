@@ -1,11 +1,11 @@
 <div class="grid-item">
   <nav>
-    <img id="logo" src="images/logo.svg">
+    <a href="index.php"><img id="logo" src="images/logo.svg"></a>
     <ul>
       <li id="homeNav"><a href="index.php">HOME</a></li>
       <li id="aboutNav">ABOUT</li>
       <li id="faqNav">FAQ</li>
     </ul>
-    <p id='phone'>307-222-1332</p>
+    <p id='phone'><i class="fas fa-phone"></i></p>
   </nav>
 </div>
