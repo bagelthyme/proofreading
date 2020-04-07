@@ -9,7 +9,11 @@
       <?php include 'navigation.php';?>
 
       <div class="grid-item hero">
-        <button id="exploreButton">EXPLORE</button>
+        <div id="explore">
+          <button src="basic.php" id="exploreButton">Basic</button>
+          <button id="exploreButton">Extended</button>
+          <button id="exploreButton">Resume</button>
+      </div>
       </div>
       <div class="grid-item option-container">
         <div class="grid-box1 service basic">

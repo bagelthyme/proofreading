@@ -219,16 +219,25 @@ p {
   background: url("images/hero-main.jpg")
 }
 
+#explore {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  align-items: center;
+  align-content: space-between;
+
+}
+
+
+
 #exploreButton {
+  margin: 30px;
   background-color: #F8F2E6;
   color: black;
-  position: absolute;
-  top:35%;
-  left: 35%;
-  padding: 30px;
+  padding: 25px;
   font-size: 40px;
   font-family: Optima;
-  width: 70px;
+  width: 250px;
 }
 
 h1:hover {
@@ -460,7 +469,8 @@ margin: 20px 5px 0;
 
 
 .btn {
-  width: 30px;
+  width: 18vw;
+  height: 8vh;
 }
 
 button:hover, .btn-item:hover {
@@ -476,7 +486,7 @@ footer {
   background-image: url('images/sunglasses.jpg');
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 35vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -486,14 +496,14 @@ footer {
 }
 
 .footer_layer_one {
-  /* display: flex; */
+  display: flex;
   justify-content: space-around;
   align-self: flex-end;
   width: 100%;
 }
 
 .footer_layer_two {
-  /* display: flex; */
+  display: flex;
   justify-content: space-around;
   align-self: flex-end;
   width: 100%;
@@ -612,6 +622,7 @@ footer a {
     top: unset;
     position: unset;
     align-self: center;
+    width: 100%;
   }
 
   #frequently {
