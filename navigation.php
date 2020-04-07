@@ -6,6 +6,7 @@
       <li id="aboutNav">ABOUT</li>
       <li id="faqNav">FAQ</li>
     </ul>
-    <p id='phone'><i class="fas fa-phone"></i></p>
+    <a href="#"><p id='phone'><i class="fas fa-phone"></i></p></a>
+    <a href="checkout.php"><p id='phone'><i class="fas fa-shopping-cart"></i></p></a>
   </nav>
 </div>

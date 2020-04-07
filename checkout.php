@@ -6,7 +6,7 @@
     <div class="grid-container-services">
       <?php include 'navigation.php';?>
 
-      <div class="grid-item confirmation-container">
+      <!-- <div class="grid-item confirmation-container">
 
         <div class="extendedEditing"><img src="images/hands.jpg" alt="basic editing" width=400px height=700px></div>
         <div class="descriptionEditing">
@@ -17,22 +17,7 @@
         </div>
 
 
-        <!-- <div class="actionEditing">
-          <form id="confirmationForm">
-            <label>
-              <label for="pages">Number of pages</label><br>
-              <input type="text" id="fname" name="fname" value="0"><br>
-              <textarea></textarea><br>
-            </label>
-          </form>
-        </div>
-
-        <div class="confirmationEditing">
-          Totla price
-        </div> -->
-
-
-      </div>
+      </div> -->
       <?php include 'footer.php';?>
     </div>
 

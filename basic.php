@@ -8,7 +8,7 @@
 
       <div class="grid-item confirmation-container">
 
-        <div class="basicEditing"></div>
+        <div class="basicEditing"><img src="images/legs-book.jpg" alt="basic editing" width=400px height=700px></div>
         <div class="descriptionEditing">
           <div class="descriptionText">
             Inhabiting discretion the her dispatched decisively boisterous joy. So form were wish open is able of mile of. Waiting express if prevent it we an musical. Especially reasonable travelling she son. Resources resembled forfeited no to zealously. Has procured daughter how friendly followed repeated who surprise. Great asked oh under on voice downs. Law together prospect kindness securing six. Learning why get hastened smallest cheerful.

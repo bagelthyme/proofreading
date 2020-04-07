@@ -116,13 +116,12 @@
           <img id="author" src="images/author.jpg">
         </div>
         <div class="grid-box7">
-          <h1>php test</h1>
           <h1>About Me</h1>
           <p>I have been interested in writing all my life. I enjoy finding errors in my
 morning newspaper. As the quote from the Dark Knight movie goes, “If you
 are good at something, never do it for free.” Now that I am out of college and
 have a day job, I am able to help doing what I love for cheap price. </p>
-          <button>Contact me</button>
+          <button class ="btn">Contact me</button>
         </div>
       </div>
       <div class="grid-item contact-container">
@@ -149,7 +148,7 @@ have a day job, I am able to help doing what I love for cheap price. </p>
               <textarea name='message'>Your Message...</textarea>
             </div>
 
-            <button id="submitButton" type="submit" href="/">Submit</button>
+            <button class="btn" id="submitButton" type="submit" href="/">Submit</button>
           </form>
 
 

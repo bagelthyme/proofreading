@@ -160,24 +160,6 @@ nav ul li {
   padding: 90px;
 }
 
-.basicEditing {
-  background-image: url("images/legs-book.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 400px;
-}
-
-.extendedEditing {
-  background-image: url("images/legs-book.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 400px;
-}
-
 
 
 
@@ -246,6 +228,7 @@ p {
   padding: 30px;
   font-size: 40px;
   font-family: Optima;
+  width: 70px;
 }
 
 h1:hover {
@@ -474,8 +457,10 @@ display: inline-block;
 margin: 20px 5px 0;
 }
 
-button {
-width: 30%;
+
+
+.btn {
+  width: 30px;
 }
 
 button:hover, .btn-item:hover {
