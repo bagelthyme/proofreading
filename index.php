@@ -10,22 +10,25 @@
 
       <div class="grid-item hero">
         <div id="explore">
-          <button src="basic.php" id="exploreButton">Basic</button>
-          <button id="exploreButton">Extended</button>
-          <button id="exploreButton">Resume</button>
+          <a href="basic.php"><button id="exploreButton">Basic</button></a>
+          <a href="extended.php"><button id="exploreButton">Extended</button></a>
+          <a href="resume.php"><button id="exploreButton">Resume</button></a>
       </div>
       </div>
       <div class="grid-item option-container">
         <div class="grid-box1 service basic">
-          <h4 class="edit"><a href="basic.php">Basic Editing </a></h4>
+          <h4 class="edit">Professional</h4>
+          <!-- <h4 class="edit"><a href="basic.php">Basic Editing </a></h4> -->
           <!-- <img src="images/legs-book.jpg" alt="christmas" width="100%" height="100%"> -->
         </div>
         <div class="grid-box2 service extended">
-          <h4 class="edit"><a href="extended.php">Extended Editing</a></h4>
+          <h4 class="edit">Fast</h4>
+          <!-- <h4 class="edit"><a href="extended.php">Extended Editing</a></h4> -->
           <!-- <img src="images/treebook.jpg" alt="christmas" width="100%" height="100%"> -->
         </div>
         <div class="grid-box3 service resume">
-          <h4 class="edit"><a href="resume.php">Resume Editing</a></h4>
+          <h4 class="edit">Accurate</h4>
+          <!-- <h4 class="edit"><a href="resume.php">Resume Editing</a></h4> -->
           <!-- <img src="images/night.jpg" alt="kid" width="100%" height="100%"> -->
         </div>
       </div>

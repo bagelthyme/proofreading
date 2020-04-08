@@ -8,6 +8,10 @@ body {
   margin: 0;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
 
 #scrollUp {
   position: fixed;
@@ -49,7 +53,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
   font-size: 2rem;
   background-color: var(--nav-color);
   height: 10vh;
@@ -96,8 +100,8 @@ nav ul li {
 .option-container{
   display: grid;
   grid-template-columns: auto auto auto;
-  font-family: Optima;
-  font-style: italic;
+  font-family: 'Baloo Bhai 2', cursive;
+  /* font-style: italic; */
 }
 
 .contact-container{
@@ -121,7 +125,7 @@ nav ul li {
   /* padding: 20px; */
   font-size: 30px;
   text-align: center;
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
   padding: 15px;
 }
 
@@ -137,12 +141,12 @@ nav ul li {
 }
 
 .title {
-  font-family: Optima;
-  font-style: italic;
+  font-family: 'Baloo Bhai 2', cursive;
+  /* font-style: italic; */
 }
 
 .grid-box7 h1 {
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 
@@ -193,16 +197,16 @@ nav ul li {
 }
 
 h1 {
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 p {
-  font-family: Optima;
+  font-family: 'Caveat', cursive;
 }
 
 
 .edit {
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
   background-color: #F8F2E6;
   padding: 30px;
   margin: 0px;
@@ -236,7 +240,7 @@ p {
   color: black;
   padding: 25px;
   font-size: 40px;
-  font-family: Optima;
+  font-family: 'Caveat', cursive;
   width: 250px;
 }
 
@@ -290,16 +294,17 @@ h1:hover {
 
 #frequently ul {
   list-style-type: none;
+  /* background-color: white; */
 }
 
 #frequently h1 {
   font-size: 2em;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #frequently div {
   font-size: 1em;
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 .faqText {
@@ -311,6 +316,8 @@ h1:hover {
 }
 
 .backOpacity {
+  background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 .faq {
@@ -385,14 +392,17 @@ div.grid-box7 > p {
 
 
 textarea {
+  font-family: 'Baloo Bhai 2', cursive;
   height: 90px;
   padding: 12px 20px;
   box-sizing: border-box;
   border-radius: 4px;
+  font-size: 20px;
 }
 
 #h2Contact {
   margin: 0px;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 
@@ -420,11 +430,14 @@ margin-bottom: 30px;
 background: transparent;
 border: none;
 border-bottom: 1px solid #eee;
-font-size: 2rem;
+font-size: 20px;
+font-family: 'Baloo Bhai 2', cursive;
 }
 
 input::placeholder {
 color: #eee;
+font-size: 20px;
+font-family: 'Baloo Bhai 2', cursive;
 }
 
 
@@ -450,6 +463,7 @@ color: #85d6de;
 }
 
 .btn-item, button {
+font-family: 'Baloo Bhai 2', cursive;
 padding: 10px 5px;
 border-radius: 5px;
 border: none;
@@ -469,6 +483,7 @@ margin: 20px 5px 0;
 
 
 .btn {
+  font-family: 'Baloo Bhai 2', cursive;
   width: 18vw;
   height: 8vh;
 }
@@ -491,7 +506,8 @@ footer {
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: Optima;
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Baloo Bhai 2', cursive;
   font-size: 1.4rem;
 }
 
@@ -541,11 +557,12 @@ footer a {
   }
 
   form input, form select, form textarea, form button {
-    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
   }
 
   form textarea {
     height: 20vh;
+
   }
 
   footer {
