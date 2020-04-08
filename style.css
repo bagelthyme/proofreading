@@ -33,7 +33,7 @@ a:hover {
   border: 1px solid rgba(0, 0, 0, 0.8);
   /* padding: 20px; */
   font-size: 30px;
-  text-align: center;
+
 }
 
 
@@ -182,7 +182,11 @@ nav ul li {
 }
 
 .confirmationEditing {
-  padding-top: 90px;
+
+}
+
+#checkoutButton {
+  margin-top: 50px;
 }
 
 
@@ -229,9 +233,7 @@ p {
   height: 800px;
   align-items: center;
   align-content: space-between;
-
 }
-
 
 
 #exploreButton {
@@ -284,7 +286,7 @@ h1:hover {
 }
 
 #frequently {
-  background-image: url("images/bookglasses.jpg");
+  background-image: url("images/typewriter.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -294,11 +296,11 @@ h1:hover {
 
 #frequently ul {
   list-style-type: none;
-  /* background-color: white; */
 }
 
 #frequently h1 {
   font-size: 2em;
+  color: #F8F2E6;
   /* font-style: italic; */
 }
 
@@ -316,8 +318,8 @@ h1:hover {
 }
 
 .backOpacity {
-  background-color: rgba(0, 0, 0, 0.6);
-
+  background-color: #F8F2E6;
+  display: inline-block;
 }
 
 .faq {
@@ -407,7 +409,7 @@ textarea {
 
 
 form {
-background: rgba(0, 0, 0, 0.7);
+/* background: rgba(0, 0, 0, 0.7); */
 
 
 }
@@ -498,10 +500,11 @@ color: black;
 
 /* -------------FOOTER------------ */
 footer {
-  background-image: url('images/sunglasses.jpg');
+  /* background-image: url('images/sunglasses.jpg'); */
+  background-color: #F8F2E6;
   background-position: center;
   background-size: cover;
-  height: 35vh;
+  height: 11vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -509,6 +512,7 @@ footer {
   /* font-family: 'Caveat', cursive; */
   font-family: 'Baloo Bhai 2', cursive;
   font-size: 1.4rem;
+  color: black;
 }
 
 .footer_layer_one {
