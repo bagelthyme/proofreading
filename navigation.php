@@ -1,4 +1,4 @@
-<div class="grid-item">
+<div class="grid-item nav">
   <nav>
     <a href="index.php"><img id="logo" src="images/logo.svg"></a>
     <ul>
@@ -11,4 +11,9 @@
       <a href="checkout.php"><p id='phone'><i class="fas fa-shopping-cart"></i></p></a>
     </div>
   </nav>
+  <div id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 </div>

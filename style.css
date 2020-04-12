@@ -639,6 +639,10 @@ footer a {
   footer {
     height: unset;
   }
+  
+  .exploreButton {
+    width: 187px;
+  }
 
 }
 
