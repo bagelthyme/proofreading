@@ -10,9 +10,9 @@
 
       <div class="grid-item hero">
         <div id="explore">
-          <a href="basic.php"><button id="exploreButton">Basic</button></a>
-          <a href="extended.php"><button id="exploreButton">Extended</button></a>
-          <a href="resume.php"><button id="exploreButton">Resume</button></a>
+          <a href="basic.php"><button class="exploreButton">Basic</button></a>
+          <a href="extended.php"><button class="exploreButton">Extended</button></a>
+          <a href="resume.php"><button class="exploreButton">Resume</button></a>
       </div>
       </div>
       <div class="grid-item option-container">

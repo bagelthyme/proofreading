@@ -242,7 +242,7 @@ p {
 }
 
 
-#exploreButton {
+.exploreButton {
   margin: 30px;
   background-color: #F8F2E6;
   color: black;
@@ -250,6 +250,10 @@ p {
   font-size: 40px;
   font-family: 'Caveat', cursive;
   width: 250px;
+}
+
+.exploreButton:hover {
+  cursor: pointer;
 }
 
 h1:hover {
@@ -619,6 +623,23 @@ footer a {
     width: 80%;
   }
 
+  .confirmation-container {
+    grid-template-columns: auto;
+  }
+
+  .basicEditing img {
+    width: 40% !important;
+    height: 40% !important;
+  }
+
+  .icons {
+    width: 15%;
+  }
+
+  footer {
+    height: unset;
+  }
+
 }
 
 @media only screen and (max-width: 568px) {
@@ -661,7 +682,7 @@ footer a {
     display: none;
   }
 
-  #exploreButton {
+  .exploreButton {
     width: auto;
     left: unset;
     top: unset;
