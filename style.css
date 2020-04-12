@@ -107,7 +107,6 @@ nav ul li {
   display: grid;
   grid-template-columns: auto auto auto;
   font-family: 'Baloo Bhai 2', cursive;
-  /* font-style: italic; */
 }
 
 .contact-container{
@@ -569,6 +568,23 @@ footer a {
 /* -------------MEDIA QUERIES------------ */
 @media only screen and (max-width: 1025px) {
 
+  .rating-container{
+    grid-template-columns: auto auto;
+  }
+
+  .contact-container{
+    grid-template-columns: auto;
+  }
+
+
+
+
+
+  .option-container{
+    grid-template-columns: auto;
+  }
+
+
   .service {
     height: 50vh;
   }
@@ -610,6 +626,25 @@ footer a {
 }
 
 @media only screen and (max-width: 818px) {
+
+
+  .grid-item.hero {
+    height: 60vh;
+  }
+
+  #explore {
+    display: grid;
+    height: auto;
+  }
+
+  .exploreButton {
+    padding: 15px;
+  }
+
+
+  .rating-container{
+    grid-template-columns: auto;
+  }
 
   .author-container {
     grid-template-columns: unset;
@@ -669,7 +704,7 @@ footer a {
   }
 
   .grid-item.hero {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
   }
