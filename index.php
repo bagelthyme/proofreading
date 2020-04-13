@@ -35,41 +35,27 @@
       <div class="grid-item" id="frequently">
         <h1>Frequently Asked Questions</h1>
         <div class="backOpacity faq">
-          <!-- <p class="faqText">What file format should I submit my paper in?<br>
-            -I prefer Microsoft Word, but PDF also works<br>
-            How long will it take for you to get back to me?<br>
-            -Usually two weeks<br>
-            How will you make your corrections?<br>
-            -Microsoft Words documents will have<br>
-            document component in the margins.
-            I prefer to convert PDF documents to Word so <br>
-            I can use the same functionalitythere.</p> -->
-          <ul>
-            <li>
-              What file format should I submit my paper in?
-              <ul>
-                <li>I prefer Microsoft Word, but PDF also works</li>
-              </ul>
-            </li>
-            <br>
-            <li>
-              How long will it take for you to get back to me?
-              <ul>
-                <li>Usually two weeks</li>
-              </ul>
-            </li>
-            <br>
-            <li>
-              How will you make your corrections?
-              <ul>
-                <li>Microsoft Words documents will have<br>
-                  document comments in the margins</li>
-                <li>I prefer to convert PDF documents to Word so <br>
-                  I can use the same functionality there.</li>
-              </ul>
-            </li>
 
-          </ul>
+<!-- Testing collapsable -->
+          <button type="button" class="collapsible">What file format should I submit my paper in?</button>
+          <div class="content">
+            <p>I prefer Microsoft Word, but PDF also works</p>
+          </div>
+
+          <button type="button" class="collapsible">How long will it take for you to get back to me?</button>
+          <div class="content">
+            <p>Usually two weeks</p>
+          </div>
+
+          <button type="button" class="collapsible">How will you make your corrections?</button>
+          <div class="content">
+            <p>Microsoft Words documents will have</p>
+          </div>
+
+          <button type="button" class="collapsible">What file format should I submit my paper in?</button>
+          <div class="content">
+            <p>I prefer Microsoft Word, but PDF also works</p>
+          </div>
         </div>
 
       </div>
@@ -124,6 +110,7 @@
         </div>
         <div class="grid-box7">
           <h1>About Me</h1>
+
           <p>I have been interested in writing all my life. I enjoy finding errors in my
 morning newspaper. As the quote from the Dark Knight movie goes, “If you
 are good at something, never do it for free.” Now that I am out of college and
