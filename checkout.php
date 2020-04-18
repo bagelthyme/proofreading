@@ -17,7 +17,6 @@
   }else{
       print_r($errors);
   }
-
 ?>
 
 <!DOCTYPE html>
@@ -40,6 +39,7 @@
               <input type="submit">
             </label>
           </form>
+          <div id="paypal-button-container"></div>
         </div>
 
       <div>
@@ -48,12 +48,11 @@
       </div>
     </div>
 
-<<<<<<< HEAD
-
-      <?php include 'footer.php';?>
-=======
     <?php include 'footer.php';?>
->>>>>>> 9c258dcfb25e3d9ece28c1cd7780f1eb93e3854f
     </div>
+  <script src='https://www.paypal.com/sdk/js?client-id=ASLDArFVQ-87lKml1xGttHhXBxnwxye9aO1TyERCJTQ1Xd7y-FWIqLbTeqyR4Zs0z1g50fWR5gsu4ChE'></script>
+  <script>
+    paypal.Buttons().render('#paypal-button-container');
+  </script>
   </body>
 </html>
