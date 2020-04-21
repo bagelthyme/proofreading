@@ -42,16 +42,6 @@
             <p>I prefer you submit your document in a Word document format. If that isn’t possible, I can work with you on other document submission formats. I will accept just about anything, but Word is easiest.</p>
           </div>
 
-          <button type="button" class="collapsible">How long will it take for you to get back to me?</button>
-          <div class="content">
-            <p>I will give you back two documents when I am completed with my edits.
-              One document will be a marked document that clearly shows all of my edits and comments.
-              The second document will be a clean draft that has incorporated all of my edits.
-              This way you can choose to accept or reject individual edits if you wish.
-              I prefer to keep the integrity of the writer as much as possible, so
-              I view my edits as suggested edits.</p>
-          </div>
-
           <button type="button" class="collapsible">How will you make your corrections?</button>
           <div class="content">
             <p>Microsoft Words documents will have</p>
