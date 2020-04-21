@@ -12,8 +12,7 @@
         <div class="descriptionEditing">
           <div class="descriptionText">
             <h4>Basic Editing</h4>
-            Inhabiting discretion the her dispatched decisively boisterous joy. So form were wish open is able of mile of. Waiting express if prevent it we an musical. Especially reasonable travelling she son. Resources resembled forfeited no to zealously. Has procured daughter how friendly followed repeated who surprise. Great asked oh under on voice downs. Law together prospect kindness securing six. Learning why get hastened smallest cheerful.
-            Enjoyed minutes related as at on on. Is fanny dried as often me. Goodness as reserved raptures to mistaken steepest oh screened he. Gravity he mr sixteen esteems. Mile home its new way with high told said. Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel.
+            The basic proofreading service provides edits for spelling errors, typos, punctuation problems, capitalization errors, and awkward grammar. Documents that require the basic proofreading service have already been through peer reviews or workshops.
           </div>
         </div>
 
