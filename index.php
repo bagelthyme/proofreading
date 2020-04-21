@@ -57,7 +57,7 @@
             <p>Microsoft Words documents will have</p>
           </div>
 
-          <button type="button" class="collapsible">What file format should I submit my paper in?</button>
+          <button type="button" class="collapsible">How long will it take for you to get back to me?</button>
           <div class="content">
             <p>I will respond to your request within 24 business hours.
               Within that initial response, I will have reviewed the amount of time needed
