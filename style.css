@@ -8,6 +8,54 @@ body {
   margin: 0;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
+#video {
+  /* position: fixed;
+  /* z-index: -1; */
+}
+
+/* faq collapsable */
+.collapsible {
+  background-color: var(--nav-color);
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 35px;
+
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  font-family: 'Baloo Bhai 2', cursive;
+  font-size: 15px;
+  width: 100%;
+}
+
+.content p {
+  /* color: grey; */
+}
+
+
+
+/* ----------- */
+
+
+
 #scrollUp {
   position: fixed;
   bottom: 1em;
@@ -28,7 +76,7 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.8);
   /* padding: 20px; */
   font-size: 30px;
-  text-align: center;
+
 }
 
 
@@ -48,7 +96,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
   font-size: 2rem;
   background-color: var(--nav-color);
   height: 10vh;
@@ -69,6 +117,12 @@ nav ul {
 nav ul li {
   display: inline;
   cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 7%;
 }
 
 #menuToggle {
@@ -95,8 +149,7 @@ nav ul li {
 .option-container{
   display: grid;
   grid-template-columns: auto auto auto;
-  font-family: Optima;
-  font-style: italic;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 .contact-container{
@@ -120,7 +173,7 @@ nav ul li {
   /* padding: 20px; */
   font-size: 30px;
   text-align: center;
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
   padding: 15px;
 }
 
@@ -136,12 +189,12 @@ nav ul li {
 }
 
 .title {
-  font-family: Optima;
-  font-style: italic;
+  font-family: 'Baloo Bhai 2', cursive;
+  /* font-style: italic; */
 }
 
 .grid-box7 h1 {
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 
@@ -159,14 +212,7 @@ nav ul li {
   padding: 90px;
 }
 
-.basicEditing {
-  background-image: url("images/legs-book.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 400px;
-}
+
 
 
 .descriptionEditing {
@@ -184,7 +230,10 @@ nav ul li {
 }
 
 .confirmationEditing {
-  padding-top: 90px;
+}
+
+#checkoutButton {
+  margin-top: 50px;
 }
 
 
@@ -192,21 +241,19 @@ nav ul li {
 /* ---------------DESKTOP------------------ */
 
 
+
+
 #frequently > h1 {
   text-align: center;
 }
 
 h1 {
-  font-family: Optima;
-}
-
-p {
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 
 .edit {
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
   background-color: #F8F2E6;
   padding: 30px;
   margin: 0px;
@@ -223,15 +270,31 @@ p {
   background: url("images/hero-main.jpg")
 }
 
-#exploreButton {
+#explore {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  align-items: center;
+  align-content: space-between;
+}
+
+
+.exploreButton {
+  margin: 30px;
   background-color: #F8F2E6;
   color: black;
-  position: absolute;
-  top:35%;
-  left: 35%;
-  padding: 30px;
+  padding: 25px;
   font-size: 40px;
-  font-family: Optima;
+  font-family: 'Caveat', cursive;
+  width: 250px;
+}
+
+.exploreButton:hover {
+  cursor: pointer;
+}
+
+h1:hover {
+  margin: 40px;
 }
 
 .grid-box5 {
@@ -270,11 +333,11 @@ p {
 }
 
 #frequently {
-  background-image: url("images/bookglasses.jpg");
+  background-image: url("images/typewriter.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 800px;
+  height: 655px;
   padding: 2em;
  }
 
@@ -284,12 +347,13 @@ p {
 
 #frequently h1 {
   font-size: 2em;
-  font-style: italic;
+  color: #F8F2E6;
+  /* font-style: italic; */
 }
 
 #frequently div {
   font-size: 1em;
-  font-family: Optima;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 .faqText {
@@ -301,6 +365,8 @@ p {
 }
 
 .backOpacity {
+  background-color: #F8F2E6;
+  display: inline-block;
 }
 
 .faq {
@@ -375,19 +441,22 @@ div.grid-box7 > p {
 
 
 textarea {
+  font-family: 'Baloo Bhai 2', cursive;
   height: 90px;
   padding: 12px 20px;
   box-sizing: border-box;
   border-radius: 4px;
+  font-size: 20px;
 }
 
 #h2Contact {
   margin: 0px;
+  font-family: 'Baloo Bhai 2', cursive;
 }
 
 
 form {
-background: rgba(0, 0, 0, 0.7);
+/* background: rgba(0, 0, 0, 0.7); */
 
 
 }
@@ -409,12 +478,38 @@ padding: 5px;
 margin-bottom: 30px;
 background: transparent;
 border: none;
+<<<<<<< HEAD
 border-bottom: 1px solid #eee;
 font-size: 2rem;
+=======
+/* border-bottom: 1px solid #eee; */
+border-bottom: 1px solid black;
+font-size: 20px;
+font-family: 'Baloo Bhai 2', cursive;
+color: black;
+}
+
+::-webkit-input-placeholder {
+  color:black !important;
+}
+
+::-moz-placeholder {
+  color:black !important;
+}
+
+::-ms-placeholder {
+  color:black !important;
+}
+
+::placeholder {
+  color:black !important;
+>>>>>>> 55383cc96abfa65ed2dac2a7dff50294b8482303
 }
 
 input::placeholder {
 color: #eee;
+font-size: 20px;
+font-family: 'Baloo Bhai 2', cursive;
 }
 
 
@@ -435,13 +530,13 @@ vertical-align: middle;
 color: #26a9e0;
 }
 
-.checkbox a:hover {
+.checkbox {
 color: #85d6de;
 }
 
 .btn-item, button {
+font-family: 'Baloo Bhai 2', cursive;
 padding: 10px 5px;
-border-radius: 5px;
 border: none;
 background: black;
 text-decoration: none;
@@ -456,37 +551,52 @@ display: inline-block;
 margin: 20px 5px 0;
 }
 
-button {
-width: 30%;
+
+
+.btn {
+  font-family: 'Baloo Bhai 2', cursive;
+  width: 18vw;
+  height: 8vh;
 }
 
 button:hover, .btn-item:hover {
-/* background: #85d6de; */
-background: var(--nav-color);
-color: black;
+
+/* background: var(--nav-color); */
+/* color: black; */
+opacity: 0.5;
 }
 
 
 
 /* -------------FOOTER------------ */
 footer {
-  background-image: url('images/sunglasses.jpg');
+  /* background-image: url('images/sunglasses.jpg'); */
+  background-color: #F8F2E6;
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 11vh;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: Optima;
+  /* font-family: 'Caveat', cursive; */
+  font-family: 'Baloo Bhai 2', cursive;
   font-size: 1.4rem;
+  color: black;
 }
 
-footer div {
+.footer_layer_one {
   display: flex;
   justify-content: space-around;
   align-self: flex-end;
-  width: 50%;
+  width: 100%;
+}
+
+.footer_layer_two {
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+  width: 100%;
 }
 
 footer div p {
@@ -500,6 +610,28 @@ footer a {
 
 /* -------------MEDIA QUERIES------------ */
 @media only screen and (max-width: 1025px) {
+
+  .rating-container{
+    grid-template-columns: auto auto;
+  }
+
+  .contact-container{
+    grid-template-columns: auto;
+  }
+
+
+  #frequently {
+    height: auto;
+  }
+
+
+
+
+
+  .option-container{
+    grid-template-columns: auto;
+  }
+
 
   .service {
     height: 50vh;
@@ -521,11 +653,12 @@ footer a {
   }
 
   form input, form select, form textarea, form button {
-    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
   }
 
   form textarea {
     height: 20vh;
+
   }
 
   footer {
@@ -542,6 +675,25 @@ footer a {
 
 @media only screen and (max-width: 818px) {
 
+
+  .grid-item.hero {
+    height: 60vh;
+  }
+
+  #explore {
+    display: grid;
+    height: auto;
+  }
+
+  .exploreButton {
+    padding: 15px;
+  }
+
+
+  .rating-container{
+    grid-template-columns: auto;
+  }
+
   .author-container {
     grid-template-columns: unset;
   }
@@ -552,6 +704,27 @@ footer a {
 
   footer div {
     width: 80%;
+  }
+
+  .confirmation-container {
+    grid-template-columns: auto;
+  }
+
+  .basicEditing img {
+    width: 40% !important;
+    height: 40% !important;
+  }
+
+  .icons {
+    width: 15%;
+  }
+
+  footer {
+    height: unset;
+  }
+
+  .exploreButton {
+    width: 187px;
   }
 
 }
@@ -583,7 +756,7 @@ footer a {
   }
 
   .grid-item.hero {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
   }
@@ -596,12 +769,13 @@ footer a {
     display: none;
   }
 
-  #exploreButton {
+  .exploreButton {
     width: auto;
     left: unset;
     top: unset;
     position: unset;
     align-self: center;
+    width: 100%;
   }
 
   #frequently {
