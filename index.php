@@ -39,12 +39,17 @@
 <!-- Testing collapsable -->
           <button type="button" class="collapsible">What file format should I submit my paper in?</button>
           <div class="content">
-            <p>I prefer Microsoft Word, but PDF also works</p>
+            <p>I prefer you submit your document in a Word document format. If that isn’t possible, I can work with you on other document submission formats. I will accept just about anything, but Word is easiest.</p>
           </div>
 
           <button type="button" class="collapsible">How long will it take for you to get back to me?</button>
           <div class="content">
-            <p>Usually two weeks</p>
+            <p>I will give you back two documents when I am completed with my edits.
+              One document will be a marked document that clearly shows all of my edits and comments.
+              The second document will be a clean draft that has incorporated all of my edits.
+              This way you can choose to accept or reject individual edits if you wish.
+              I prefer to keep the integrity of the writer as much as possible, so
+              I view my edits as suggested edits.</p>
           </div>
 
           <button type="button" class="collapsible">How will you make your corrections?</button>
@@ -54,7 +59,12 @@
 
           <button type="button" class="collapsible">What file format should I submit my paper in?</button>
           <div class="content">
-            <p>I prefer Microsoft Word, but PDF also works</p>
+            <p>I will respond to your request within 24 business hours.
+              Within that initial response, I will have reviewed the amount of time needed
+              to complete your document and let you know the expected completion date and estimated cost.
+              If the completion date and estimated cost is agreeable to you,
+              I will send you an editing contract with exact dates and costs.
+              I will not begin editing a document until I have received a signed editing contract.</p>
           </div>
         </div>
 
@@ -111,10 +121,12 @@
         <div class="grid-box7">
           <h1>About Me</h1>
 
-          <p>I have been interested in writing all my life. I enjoy finding errors in my
-morning newspaper. As the quote from the Dark Knight movie goes, “If you
-are good at something, never do it for free.” Now that I am out of college and
-have a day job, I am able to help doing what I love for cheap price. </p>
+          <p>We often enjoy doing what we do well. I’m good at correcting your grammar, silently or not.
+            Reading through documents to correct errors is like solving a riddle or puzzle.
+            I attended graduate school to earn a degree in book club and puzzle solving, so
+            I could eventually make a little bit of money doing what I enjoy.
+            With an MA in English and a professional and technical writing certificate,
+            I have been teaching composition courses and editing all types of documents for 6+ years.  </p>
           <button class ="btn">Contact me</button>
         </div>
       </div>
