@@ -6,11 +6,11 @@
   $uploadOk = 1;
 
   $extensions= array("pdf", "doc", "docx");
-      
+
   if(in_array($file_ext,$extensions)=== false){
       $errors[]="extension not allowed.";
   }
-  
+
   if(empty($errors)==true){
       move_uploaded_file($_FILES['fileUpload']["tmp_name"], $targetFile);
       echo "Success";
@@ -31,20 +31,20 @@
 
         <div class="actionEditing">
           <form id="confirmationForm" method='post' action='' enctype='multipart/form-data'>
-            <label>
+            <div id="checkoutSection">
               <label for="pages">Upload your file here...</label><br>
-              <input type='file' name='fileUpload'>
+              <input type='file' name='fileUpload'><br>
               <input type="text" id="fname" name="fname" value="0"><br>
-              <textarea></textarea><br>
-              <input type="submit">
-            </label>
+              <textarea placeholder="Optional message..."></textarea><br>
+              <!-- <input class="btn" type="submit"> -->
+            </div>
           </form>
           <div id="paypal-button-container"></div>
         </div>
 
       <div>
         <div class="confirmationEditing">Total price:</div>
-        <button id="checkoutButton">Checkout</button>
+        <button class="btn" id="checkoutButton">Checkout</button>
       </div>
     </div>
 

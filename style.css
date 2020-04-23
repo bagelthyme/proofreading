@@ -321,7 +321,7 @@ h1:hover {
 }
 
 .basic {
-  background-image: url("images/legs-book.jpg");
+  background-image: url("images/computer-man.jpg");
 }
 
 .extended {
@@ -447,6 +447,9 @@ div.grid-box7 > p {
   margin-top: 25px;
 }
 
+#checkoutSection {
+  /* border: solid black; */
+}
 
 textarea {
   font-family: 'Baloo Bhai 2', cursive;
@@ -466,7 +469,6 @@ textarea {
 form {
 /* background: rgba(0, 0, 0, 0.7); */
 
-
 }
 
 .title {
@@ -485,16 +487,11 @@ input, select {
 padding: 5px;
 margin-bottom: 30px;
 background: transparent;
-border: none;
-<<<<<<< HEAD
-border-bottom: 1px solid #eee;
-font-size: 2rem;
-=======
+/* border: none; */
 /* border-bottom: 1px solid #eee; */
-border-bottom: 1px solid black;
+border: 1px solid black;
 font-size: 20px;
 font-family: 'Baloo Bhai 2', cursive;
-color: black;
 }
 
 ::-webkit-input-placeholder {
@@ -511,7 +508,6 @@ color: black;
 
 ::placeholder {
   color:black !important;
->>>>>>> 55383cc96abfa65ed2dac2a7dff50294b8482303
 }
 
 input::placeholder {
@@ -563,8 +559,8 @@ margin: 20px 5px 0;
 
 .btn {
   font-family: 'Baloo Bhai 2', cursive;
-  width: 18vw;
-  height: 8vh;
+  width: 15vw;
+  height: 6vh;
 }
 
 button:hover, .btn-item:hover {
