@@ -62,45 +62,45 @@
       <div class="grid-item rating-container">
         <div class="grid-rating1">
           <img src="images/girl2.jpg" class="rating-image">
-          <h5 class="rating-name">Joe Andersen</h4>
-          <p class="rating-date">01-20-2020</p>
+          <h5 class="rating-name">Mia Johnson</h4>
+          <p class="rating-date">02-03-2019</p>
           <p class="rating-star">	&#9733; &#9733;	&#9733;	&#9733;	&#9733;</p>
-          <p class="rating-text">Thank you!</p>
+          <p class="rating-text">It was quick and professional as promised.</p>
         </div>
         <div class="grid-rating2">
           <img src="images/girl2.jpg" class="rating-image">
-          <h5 class="rating-name">Joe Andersen</h4>
+          <h5 class="rating-name">Kate Andersen</h4>
           <p class="rating-date">01-20-2020</p>
           <p class="rating-star">	&#9733; &#9733;	&#9733;	&#9733;	&#9733;</p>
-          <p class="rating-text">Thank you!</p>
+          <p class="rating-text">5 star for sure.</p>
         </div>
         <div class="grid-rating3">
           <img src="images/girl2.jpg" class="rating-image">
-          <h5 class="rating-name">Joe Andersen</h4>
+          <h5 class="rating-name">Joe Clark</h4>
           <p class="rating-date">01-20-2020</p>
           <p class="rating-star">	&#9733; &#9733;	&#9733;	&#9733;	&#9733;</p>
-          <p class="rating-text">Thank you!</p>
+          <p class="rating-text">Will use it again!</p>
         </div>
         <div class="grid-rating4">
           <img src="images/girl2.jpg" class="rating-image">
-          <h5 class="rating-name">Joe Andersen</h4>
-          <p class="rating-date">01-20-2020</p>
+          <h5 class="rating-name">James Mills</h4>
+          <p class="rating-date">05-12-2019</p>
           <p class="rating-star">	&#9733; &#9733;	&#9733;	&#9733;	&#9733;</p>
           <p class="rating-text">Thank you!</p>
         </div>
         <div class="grid-rating5">
           <img src="images/girl2.jpg" class="rating-image">
-          <h5 class="rating-name">Joe Andersen</h4>
-          <p class="rating-date">01-20-2020</p>
+          <h5 class="rating-name">Federick Lom</h4>
+          <p class="rating-date">08-10-2019</p>
           <p class="rating-star">	&#9733; &#9733;	&#9733;	&#9733;	&#9733;</p>
-          <p class="rating-text">Thank you!</p>
+          <p class="rating-text">Great job!</p>
         </div>
         <div class="grid-rating6">
           <img src="images/girl2.jpg" class="rating-image">
-          <h5 class="rating-name">Joe Andersen</h4>
-          <p class="rating-date">01-20-2020</p>
+          <h5 class="rating-name">Mike Tompson</h4>
+          <p class="rating-date">02-20-2019</p>
           <p class="rating-star">	&#9733; &#9733;	&#9733;	&#9733;	&#9733;</p>
-          <p class="rating-text">Thank you!</p>
+          <p class="rating-text">very affordable and professional</p>
         </div>
 
       </div>
@@ -146,8 +146,6 @@
 
             <button class="btn" id="submitButton" type="submit" href="/">Submit</button>
           </form>
-
-
         </div>
 
         <div class="grid-box5"></div>

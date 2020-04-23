@@ -4,6 +4,14 @@
   src: url("fonts/optima.ttf");
 }
 
+#logo {
+  margin-top: 15px;
+}
+
+.rating-text {
+  /* max-width: 50%; */
+}
+
 body {
   margin: 0;
 }
@@ -570,7 +578,7 @@ opacity: 0.5;
 
 /* -------------FOOTER------------ */
 footer {
-  background-image: url('images/sunglasses.jpg');
+  /* background-image: url('images/sunglasses.jpg'); */
   background-color: #F8F2E6;
   background-position: center;
   background-size: cover;
@@ -604,7 +612,7 @@ footer div p {
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /* -------------MEDIA QUERIES------------ */
