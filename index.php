@@ -109,7 +109,7 @@
           <img id="author" src="images/author.jpg">
         </div>
         <div class="grid-box7">
-          <h1>About Me</h1>
+          <h1 id="about">About Me</h1>
 
           <p>We often enjoy doing what we do well. I’m good at correcting your grammar, silently or not.
             Reading through documents to correct errors is like solving a riddle or puzzle.
