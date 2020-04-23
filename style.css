@@ -87,6 +87,22 @@ a:hover {
 
 }
 
+.success-container {
+  padding: 1em;
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.success-container h4 {
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.success-container .grid-item {
+  border: none;
+}
+
+#paypal-basic, #paypal-extended, #paypal-resume {
+  width: 40%;
+}
 
 
 /* ---------------COLOR------------ */

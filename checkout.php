@@ -1,23 +1,25 @@
 <?php
-  $targetDir = 'uploads/';
-  $targetFile = $targetDir . basename($_FILES['fileUpload']["name"]);
-  $file_type = $_FILES['fileUpload']['type'];
-  $file_ext = strtolower(end(explode('.',$_FILES['fileUpload']['name'])));
-  $uploadOk = 1;
+  // $targetDir = 'uploads/';
+  // $targetFile = $targetDir . basename($_FILES['fileUpload']["name"]);
+  // $file_type = $_FILES['fileUpload']['type'];
+  // $file_ext = strtolower(end(explode('.',$_FILES['fileUpload']['name'])));
+  // $uploadOk = 1;
 
-  $extensions= array("pdf", "doc", "docx");
+  // $extensions= array("pdf", "doc", "docx");
 
-  if(in_array($file_ext,$extensions)=== false){
-      $errors[]="extension not allowed.";
-  }
+  // if(in_array($file_ext,$extensions)=== false){
+  //     $errors[]="extension not allowed.";
+  // }
 
-  if(empty($errors)==true){
-      move_uploaded_file($_FILES['fileUpload']["tmp_name"], $targetFile);
-      echo "Success";
-  }else{
-      print_r($errors);
-  }
+  // if(empty($errors)==true){
+  //     move_uploaded_file($_FILES['fileUpload']["tmp_name"], $targetFile);
+  //     echo "Success";
+  // }else{
+  //     print_r($errors);
+  // }
 ?>
+
+
 
 <!DOCTYPE html>
 <html></<!DOCTYPE html>
@@ -30,29 +32,20 @@
       <div class="grid-item confirmation-container">
 
         <div class="actionEditing">
-          <form class="checkoutForm" id="confirmationForm" method='post' action='' enctype='multipart/form-data'>
+          <form class="checkoutForm" id="confirmationForm" method='post' action='uploads.php' enctype='multipart/form-data'>
             <div id="checkoutSection">
               <label for="pages">Upload your files</label><br><br>
               <input type='file' name='fileUpload'><br>
-              <input type="text" id="fname" name="fname" value="0"><br>
+              <!-- <input type="text" id="fname" name="fname" value="0"><br> -->
               <textarea placeholder="Optional message..."></textarea><br>
-              <!-- <input class="btn" type="submit"> -->
+              <input class="btn" type="submit">
             </div>
           </form>
-          <div id="paypal-button-container"></div>
         </div>
 
-      <div>
-        <div class="confirmationEditing">Total price:</div>
-        <button class="btn" id="checkoutButton">Checkout</button>
       </div>
-    </div>
 
     <?php include 'footer.php';?>
     </div>
-  <script src='https://www.paypal.com/sdk/js?client-id=ASLDArFVQ-87lKml1xGttHhXBxnwxye9aO1TyERCJTQ1Xd7y-FWIqLbTeqyR4Zs0z1g50fWR5gsu4ChE'></script>
-  <script>
-    paypal.Buttons().render('#paypal-button-container');
-  </script>
   </body>
 </html>
