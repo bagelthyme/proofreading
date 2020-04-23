@@ -570,7 +570,7 @@ opacity: 0.5;
 
 /* -------------FOOTER------------ */
 footer {
-  /* background-image: url('images/sunglasses.jpg'); */
+  background-image: url('images/sunglasses.jpg');
   background-color: #F8F2E6;
   background-position: center;
   background-size: cover;
@@ -578,7 +578,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   /* font-family: 'Caveat', cursive; */
   font-family: 'Baloo Bhai 2', cursive;
   font-size: 1.4rem;
