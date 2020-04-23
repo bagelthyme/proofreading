@@ -30,9 +30,9 @@
       <div class="grid-item confirmation-container">
 
         <div class="actionEditing">
-          <form id="confirmationForm" method='post' action='' enctype='multipart/form-data'>
+          <form class="checkoutForm" id="confirmationForm" method='post' action='' enctype='multipart/form-data'>
             <div id="checkoutSection">
-              <label for="pages">Upload your file here...</label><br>
+              <label for="pages">Upload your files</label><br><br>
               <input type='file' name='fileUpload'><br>
               <input type="text" id="fname" name="fname" value="0"><br>
               <textarea placeholder="Optional message..."></textarea><br>

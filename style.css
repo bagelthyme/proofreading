@@ -451,6 +451,10 @@ div.grid-box7 > p {
   /* border: solid black; */
 }
 
+.checkoutForm {
+  min-width: 600px;
+}
+
 textarea {
   font-family: 'Baloo Bhai 2', cursive;
   height: 90px;
@@ -458,6 +462,7 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   font-size: 20px;
+  min-width: 450px;
 }
 
 #h2Contact {
@@ -492,6 +497,7 @@ background: transparent;
 border: 1px solid black;
 font-size: 20px;
 font-family: 'Baloo Bhai 2', cursive;
+min-width: 450px;
 }
 
 ::-webkit-input-placeholder {
@@ -661,7 +667,6 @@ footer a {
 
   form textarea {
     height: 20vh;
-
   }
 
   footer {
