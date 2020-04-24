@@ -34,7 +34,7 @@
         <div class="actionEditing">
           <form class="checkoutForm" id="confirmationForm" method='post' action='uploads.php' enctype='multipart/form-data'>
             <div id="checkoutSection">
-              <label for="pages">Upload your files</label><br><br>
+              <label for="pages">Upload your files. Only accepts PDF format.</label><br><br>
               <input type='file' name='fileUpload'><br>
               <!-- <input type="text" id="fname" name="fname" value="0"><br> -->
               <textarea placeholder="Optional message..."></textarea><br>
