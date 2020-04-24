@@ -17,7 +17,7 @@ try {
     $mail->Host       = 'smtp.properedits.com;'; // smtp server address here                     
     $mail->SMTPAuth   = true;                              
     $mail->Username   = 'submissions';                  
-    $mail->Password   = ''; // DON'T FORGET TO ADD THISZ                         
+    $mail->Password   = ''; // DON'T FORGET TO RE ADD THIS                         
     $mail->SMTPSecure = 'tls';                               
     $mail->Port       = 587;   
   
@@ -30,9 +30,9 @@ try {
     $mail->Body    = $_POST['message']; 
     // $mail->AltBody = 'Body in plain text for non-HTML mail clients'; 
     $mail->send(); 
-    echo "Mail has been sent successfully!"; 
+    echo "<h2>Mail has been sent successfully!</h2>"; 
 } catch (Exception $e) { 
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}"; 
+    echo "<h2>Message could not be sent. Mailer Error: {$mail->ErrorInfo}<h2>"; 
 } 
 
 ?>
